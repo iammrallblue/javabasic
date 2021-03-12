@@ -12,3 +12,4 @@ bin/
 .devcontainer
 .vscode
 bin
+.gitignore
