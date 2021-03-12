@@ -4,7 +4,6 @@ bin/.vscode/settings.json
 bin/.vscode/c_cpp_properties.json
 bin/.gitignore
 .directory
-bin/
 .project
 .settings
 .DS_Store

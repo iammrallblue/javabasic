@@ -1,0 +1,22 @@
+Java divides memory into 5 parts;
+
+1. Stack or (JVM Stack)
+    - it stores local variables of methods.
+    - local variables contain parameters of methods, or variables inside of methods.
+    - if local variables are out of scope{}, they all disappear from the Stack
+
+2. Heap
+    - ** All objects and Array from new keyword store inside the Heap.
+    - Any things inside the Heap have memory addesses which is 16Hex.
+    - Objects and Array have default values inside of the Heap. (back to check Array Notes.)
+
+
+3. Method Area
+    - stores all information relate to .class, includes the information of methods.
+    - ** but executing methods is in the Stack, not in Method Area.
+
+4. Native Method Stack
+    - relates to the operating system (OS)
+
+5. PC Registers
+    - relates to the CPU
