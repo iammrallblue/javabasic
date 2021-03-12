@@ -1,0 +1,14 @@
+.vscode/settings.json
+bin/.vscode/settings.json
+.vscode/c_cpp_properties.json
+bin/.vscode/c_cpp_properties.json
+bin/.gitignore
+.directory
+bin/
+.project
+.settings
+.classpath
+.DS_Store
+.devcontainer
+.vscode
+bin
