@@ -39,6 +39,8 @@ public class Demo08InputStreamReader {
     while ((length = isr.read()) != -1) {
       System.out.print(length);
     }
+
+    isr.close();
   }
 
   // reads utf-8 file by Class InputStreamReader
