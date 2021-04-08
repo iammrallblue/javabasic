@@ -9,4 +9,5 @@ bin/.gitignore
 .DS_Store
 .devcontainer
 .vscode
+.vscoee/*
 .gitignore
