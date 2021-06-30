@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_1;
+
 /*
 * Write a complete Java program in a class named Difference that prints the following output:
 *
@@ -8,8 +10,8 @@
 * The other is what appears on the "console."
 */
 
-public class Difference{
-    public static void main(String[] args){
+public class Difference {
+    public static void main(String[] args) {
         System.out.println("What is the difference between");
         System.out.println("a ' and a \"?  Or between a \" and a \\\"?");
         System.out.println();
@@ -17,4 +19,3 @@ public class Difference{
         System.out.println("The other is what appears on the \"console.\"");
     }
 }
-

@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_1;
+
 /*
 * Write a complete Java program in a class named Stewie that prints the following output:
 * 
@@ -6,11 +8,10 @@
 * \\\\\\\\\\\\\\\\\\\\\\
 */
 
-public class Stewie{
-    public static void main(String[] args){
+public class Stewie {
+    public static void main(String[] args) {
         System.out.println("//////////////////////");
         System.out.println("|| Victory is mine! ||");
         System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
     }
 }
-

@@ -1,3 +1,4 @@
+package org.javabasic.practices.chapter_1;
 /*
 * Rewrite the following code as a series of equivalent System.out.println statements 
 * (i.e., without any System.out.print statements):
@@ -13,9 +14,14 @@
 * System.out.println(  "in the wabe." );
 */
 
-System.out.println("Twas brillig and the  ");
-System.out.println("  slithy toves did gyre and");
-System.out.println(  "gimble");
-System.out.println();
-System.out.println(  "in the wabe." );
+public class WithoutPrintStatements {
+    public static void main(String[] args) {
 
+        System.out.println("Twas brillig and the  ");
+        System.out.println("  slithy toves did gyre and");
+        System.out.println("gimble");
+        System.out.println();
+        System.out.println("in the wabe.");
+
+    } // main
+}

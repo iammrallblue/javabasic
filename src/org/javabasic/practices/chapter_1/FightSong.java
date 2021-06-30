@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_1;
+
 /*
 * Write a complete Java program in a class named FightSong that generates the following three 
 * figures of output. Use static methods to show structure and eliminate redundancy in your solution.
@@ -28,32 +30,31 @@
 */
 
 public class FightSong {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         method2();
         method4();
         method4();
         method1();
     }
-    
+
     public static void method1() {
         System.out.println("Go, team, go!");
         System.out.println("You can do it.");
     }
-    
+
     public static void method2() {
         method1();
         System.out.println();
     }
-    
+
     public static void method3() {
         System.out.println("You're the best,");
         System.out.println("In the West.");
     }
-    
+
     public static void method4() {
         method1();
         method3();
         method2();
     }
 }
-

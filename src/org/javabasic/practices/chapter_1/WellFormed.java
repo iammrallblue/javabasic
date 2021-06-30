@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_1;
+
 /*
 * Write a complete Java program in a class named WellFormed that prints the following output:
 *
@@ -13,7 +15,7 @@
 */
 
 public class WellFormed {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("A well-formed Java program has");
         System.out.println("a main method with { and }");
         System.out.println("braces.");
@@ -25,4 +27,3 @@ public class WellFormed {
         System.out.println("(But we type \\\" instead!)");
     }
 }
-

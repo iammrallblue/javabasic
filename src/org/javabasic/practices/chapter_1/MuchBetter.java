@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_1;
+
 /*
 * Write a complete Java program in a class named MuchBetter that prints the following output:
 * 
@@ -9,8 +11,8 @@
 * '' is not the same as "
 */
 
-public class MuchBetter{
-    public static void main(String[] args){
+public class MuchBetter {
+    public static void main(String[] args) {
         System.out.println("A \"quoted\" String is");
         System.out.println("'much' better if you learn");
         System.out.println("the rules of \"escape sequences.\"");
@@ -19,4 +21,3 @@ public class MuchBetter{
         System.out.println("'' is not the same as \"");
     }
 }
-

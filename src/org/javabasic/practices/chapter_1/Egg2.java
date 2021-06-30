@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_1;
+
 /*
 * Write a complete Java program in a class named Egg2 that generates the following output. Use static methods to show structure and eliminate redundancy in your solution.
 * 
@@ -23,8 +25,8 @@
 *  \_______/
 */
 
-public class Egg2{
-    public static void main(String[] args){
+public class Egg2 {
+    public static void main(String[] args) {
         top();
         bottom();
         line();
@@ -36,20 +38,20 @@ public class Egg2{
         line();
         bottom();
     }
-}
 
-public static void top(){
+    public static void top() {
         System.out.println("  _______");
         System.out.println(" /       \\");
         System.out.println("/         \\");
-}
+    }
 
-public static void bottom(){
+    public static void bottom() {
         System.out.println("\\         /");
         System.out.println(" \\_______/");
-}
+    }
 
-public static void line(){
+    public static void line() {
         System.out.println("-\"-'-\"-'-\"-");
-}
+    }
 
+}
