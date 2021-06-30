@@ -19,33 +19,33 @@ package org.javabasic.d01codes.demo01;
         static final boolean BOOLEAN_VALUE = true;
  */
 public class Demo03Constants {
-  /** Demo of Constants. */
-  public static void main(String[] args) {
-    // String Constant
-    System.out.println("Bella");
-    System.out.println("");
+    /** Demo of Constants. */
+    public static void main(String[] args) {
+        // String Constant
+        System.out.println("Bella");
+        System.out.println("");
 
-    // Integer Constant
-    System.out.println(520);
-    System.out.println(-520);
+        // Integer Constant
+        System.out.println(520);
+        System.out.println(-520);
 
-    // Float Constant
-    System.out.println(5.20);
-    System.out.println(-4.44);
+        // Float Constant
+        System.out.println(5.20);
+        System.out.println(-4.44);
 
-    // Character Constant
-    System.out.println('B');
-    System.out.println('5');
+        // Character Constant
+        System.out.println('B');
+        System.out.println('5');
 
-    // System.out.println(''); // Invalid character constant, empty character
-    // literal
+        // System.out.println(''); // Invalid character constant, empty character
+        // literal
 
-    // Boolean Constant
-    System.out.println(true + " and " + false);
+        // Boolean Constant
+        System.out.println(true + " and " + false);
 
-    // null, cannot print out directly
-    // System.out.println(null); // The method println(char[]) is ambiguous for the
-    // type PrintStream
+        // null, cannot print out directly
+        // System.out.println(null); // The method println(char[]) is ambiguous for the
+        // type PrintStream
 
-  } // main
+    } // main
 }

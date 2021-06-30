@@ -10,11 +10,11 @@ package org.javabasic.d01codes.demo01;
         see below
 */
 public class Demo01Comments {
-  /** this is Documentation comment. */
-  public static void main(String[] args) {
-    /*
-     * this is multi line comment.
-     */
-    System.out.println("Newton.");
-  } // main
+    /** this is Documentation comment. */
+    public static void main(String[] args) {
+        /*
+         * this is multi line comment.
+         */
+        System.out.println("Newton.");
+    } // main
 }
