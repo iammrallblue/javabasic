@@ -20,13 +20,13 @@ package org.javabasic.d03codes.demo02;
   
 */
 public class Demo03IfElse {
-  /** Demo of if-else statement. */
-  public static void main(String[] args) {
-    int number = 9;
-    if (number % 2 == 0) {
-      System.out.println("the number " + number + " is EVEN.");
-    } else {
-      System.out.println("the number " + number + " is ODD.");
-    }
-  } //
+    /** Demo of if-else statement. */
+    public static void main(String[] args) {
+        int number = 9;
+        if (number % 2 == 0) {
+            System.out.println("the number " + number + " is EVEN.");
+        } else {
+            System.out.println("the number " + number + " is ODD.");
+        }
+    } //
 }

@@ -23,42 +23,42 @@ package org.javabasic.d03codes.demo04;
       continue is stop current processing, continue to finish the loop.
 */
 public class Demo14Break {
-  /** . */
-  public static void main(String[] args) {
+    /** . */
+    public static void main(String[] args) {
 
-    // break out of a loop
-    for (int i = 1; i <= 20; i++) {
-      // stop at 4 by break, exit loop
-      if (i == 4) {
-        break;
-        // continue; // skip 4
-      }
-      System.out.println(i);
-    }
-    System.out.println("for loop complete.");
+        // break out of a loop
+        for (int i = 1; i <= 20; i++) {
+            // stop at 4 by break, exit loop
+            if (i == 4) {
+                break;
+                // continue; // skip 4
+            }
+            System.out.println(i);
+        }
+        System.out.println("for loop complete.");
 
-    // break in while loop
-    int num = 0;
-    while (num < 100) {
-      if (num == 10) {
-        break;
-      }
-      System.out.println(num);
-      num++;
-    }
-    System.out.println("while loop complete.");
+        // break in while loop
+        int num = 0;
+        while (num < 100) {
+            if (num == 10) {
+                break;
+            }
+            System.out.println(num);
+            num++;
+        }
+        System.out.println("while loop complete.");
 
-    // break in a nested for loop
-    for (int i = 0; i < 3; i++) {
-      System.out.print("Pass " + i + ": ");
-      for (int j = 0; j < 100; j++) {
-        if (j == 10) {
-          break;
-        } // if
-        System.out.print(j + " ");
-      }
-      System.out.println();
-    }
-    System.out.println("for loop complete.");
-  } // main
+        // break in a nested for loop
+        for (int i = 0; i < 3; i++) {
+            System.out.print("Pass " + i + ": ");
+            for (int j = 0; j < 100; j++) {
+                if (j == 10) {
+                    break;
+                } // if
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("for loop complete.");
+    } // main
 }

@@ -12,11 +12,11 @@ package org.javabasic.d03codes.demo02;
         see Demo04IfElse.java
 */
 public class Demo02SingleIf {
-  /** Demo of Single if-statement. */
-  public static void main(String[] args) {
-    int age = 6;
-    if (age >= 18) {
-      System.out.println("You are an adult.");
-    }
-  } // main
+    /** Demo of Single if-statement. */
+    public static void main(String[] args) {
+        int age = 6;
+        if (age >= 18) {
+            System.out.println("You are an adult.");
+        } 
+    } // main
 }

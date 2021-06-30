@@ -26,12 +26,12 @@ package org.javabasic.d03codes.demo01;
        3) do...while loop
 */
 public class Demo01SequentialStructure {
-  /** Demo of Sequential Structure. */
-  public static void main(String[] args) {
+    /** Demo of Sequential Structure. */
+    public static void main(String[] args) {
 
-    // Sequential Structure from first line to last line
-    System.out.println("1");
-    System.out.println("2");
-    System.out.println("3");
-  } // main
+        // Sequential Structure from top to bottom of main method scope.
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+    } // main
 }

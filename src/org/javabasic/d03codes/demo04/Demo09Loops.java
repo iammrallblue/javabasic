@@ -42,42 +42,44 @@ package org.javabasic.d03codes.demo04;
     
 */
 public class Demo09Loops {
-  /** Demo of Loops. */
-  public static void main(String[] args) {
-    // deceasing iteration by for loop
-    for (int temp = 10; temp > 0; temp--) {
-      System.out.println("tick: " + temp);
-    } // for
-    System.out.println("For Loop is Terminated.\n");
+    /** Demo of Loops. */
+    public static void main(String[] args) {
+        // deceasing iteration by for loop statement
+        for (int temp = 10; temp > 0; temp--) {
+            System.out.println("tick: " + temp);
+        }
+        System.out.println("For Loop is Terminated.\n");
 
-    // instance by using while loop
-    int n = 10;
-    while (n > 0) {
-      System.out.println("touchdown: " + n);
-      n--;
-    } // while
-    System.out.println("While loop is Terminated.\n");
+        // instance by using while loop statement
+        int n = 10;
+        while (n > 0) {
+            System.out.println("touchdown: " + n);
+            n--;
+        }
+        System.out.println("While loop is Terminated.\n");
 
-    // instance by using do...while loop
-    int m = 10;
-    do {
-      System.out.println("tick: " + m);
-      m--;
-    } while (m > 0);
-    System.out.println("do/while loop is Terminated.\n");
-    diffMethod();
-  } // main
+        // instance by using do...while loop statement
+        int m = 10;
+        do {
+            System.out.println("tick: " + m);
+            m--;
+        } while (m > 0);
+        System.out.println("do/while loop is Terminated.\n");
 
-  /** instance for differences. */
-  public static void diffMethod() {
-    for (int i = 1; i < 0; i++) {
-      System.out.println("for loop is not executed, if did not see me.");
-    } // for
+        // call diffMethod() function
+        diffMethod();
+    } // main
 
-    int i = 1;
-    do {
-      System.out.println("do/while is executed once, if you see me.");
-      i++;
-    } while (i < 0);
-  }
+    /** instance for differences. */
+    public static void diffMethod() {
+        for (int i = 1; i < 0; i++) {
+            System.out.println("for loop is not executed, if did not see me.");
+        }
+
+        int i = 1;
+        do {
+            System.out.println("do/while is executed once, if you see me.");
+            i++;
+        } while (i < 0);
+    }
 }
