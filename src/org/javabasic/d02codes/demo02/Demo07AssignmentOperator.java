@@ -27,27 +27,27 @@ package org.javabasic.d02codes.demo02;
             x %= y, is equivalent to x = x % y
 */
 public class Demo07AssignmentOperator {
-  /** Demo of Assignment Operators. */
-  public static void main(String[] args) {
-    int a = 10;
-    a += 5; // a = a + 5
-    System.out.println(a); // 15
+    /** Demo of Assignment Operators. */
+    public static void main(String[] args) {
+        int a = 10;
+        a += 5; // a = a + 5
+        System.out.println(a); // 15
 
-    int x = 10;
-    x %= 3; // x = x % 3
-    System.out.println(x); // modulus is 1;
+        int x = 10;
+        x %= 3; // x = x % 3
+        System.out.println(x); // modulus is 1;
 
-    // 50 = 30; // ERROR, Constant cannot be variable;
+        // 50 = 30; // ERROR, Constant cannot be variable;
 
-    byte var = 30;
-    // noticeably, 30 is int, 5 is int as well
-    var += 5; 
-    // a few steps to convert byte and int,
-    // var = var + 5;  var = byte + int
-    // var = int + int (convert byte here)
-    // var = int
-    // var = (byte) int // explicit conversion
-    System.out.println(var); // 35, var is byte.
+        byte var = 30;
+        // noticeably, 30 is int, 5 is int as well
+        var += 5;
+        // a few steps to convert byte and int,
+        // var = var + 5; var = byte + int
+        // var = int + int (convert byte here)
+        // var = int
+        // var = (byte) int // explicit conversion
+        System.out.println(var); // 35, var is byte.
 
-  } // main
+    } // main
 }

@@ -9,16 +9,16 @@ package org.javabasic.d02codes.demo02;
         see example
  */
 public class Demo05Addition {
-  /** . */
-  public static void main(String[] args) {
-    String str = "Bella";
-    System.out.println(str);
-    String str2 = "831"; // means 520
-    String result = str + str2; // join ng str and str2 together.
-    System.out.println(result); // Bella831
+    /** . */
+    public static void main(String[] args) {
+        String str = "Bella";
+        System.out.println(str);
+        String str2 = "831"; // means 520
+        String result = str + str2; // join ng str and str2 together.
+        System.out.println(result); // Bella831
 
-    // highest-priority of String Class
-    System.out.println(str + 8 + 31); // Bella831
-    System.out.println(str + (5 + 20)); // Bella25
-  } // main
+        // highest-priority of String Class
+        System.out.println(str + 8 + 31); // Bella831
+        System.out.println(str + (5 + 20)); // Bella25
+    } // main
 }

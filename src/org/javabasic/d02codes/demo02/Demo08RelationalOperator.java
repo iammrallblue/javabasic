@@ -39,20 +39,21 @@ package org.javabasic.d02codes.demo02;
 
  */
 public class Demo08RelationalOperator {
-  /** . */
-  public static void main(String[] args) {
-    System.out.println(10 > 20); // false
-    int x = 10;
-    int y = 20;
-    System.out.println(x < y); // true
+    /** . */
+    public static void main(String[] args) {
+        System.out.println(10 > 20); // false
+        
+        int x = 10;
+        int y = 20;
+        System.out.println(x < y); // true
 
-    System.out.println(x >= 100); // false
-    System.out.println(x <= 100); // true
-    System.out.println(y <= 12); // false
+        System.out.println(x >= 100); // false
+        System.out.println(x <= 100); // true
+        System.out.println(y <= 12); // false
 
-    System.out.println(x == 10); // true
-    // !=
-    System.out.println(x != y); // true
-    System.out.println(y != 20); // false
-  } // main
+        System.out.println(x == 10); // true
+        // !=
+        System.out.println(x != y); // true
+        System.out.println(y != 20); // false
+    } // main
 }

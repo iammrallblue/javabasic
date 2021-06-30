@@ -42,44 +42,44 @@ package org.javabasic.d02codes.demo01;
       3. boolean CANNOT perform data type conversion. ONLY (true, and false)
 */
 public class Demo01DataTypeConversion {
-  /** . */
-  public static void main(String[] args) {
-    // Automatic Conversion
-    System.out.println(1024); // default type is int
-    System.out.println(3.14); // default type is double
+    /** . */
+    public static void main(String[] args) {
+        // Automatic Conversion
+        System.out.println(1024); // default type is int
+        System.out.println(3.14); // default type is double
 
-    long l = 100L;
-    System.out.println(l); // defined type is long.
+        long l = 100L;
+        System.out.println(l); // l is defined as long type.
 
-    long amount = 1000; // 1000 is default int.
-    System.out.println(amount); // automatic conversion, int -> long
+        long amount = 1000; // 1000 is default int.
+        System.out.println(amount); // automatic conversion, int -> long
 
-    double decimal = 5.5F;
-    System.out.println(decimal); // automatic conversion, float -> double
+        double decimal = 5.5F;
+        System.out.println(decimal); // automatic conversion, float -> double
 
-    float f = 30L;
-    System.out.println(f); // automatic conversion, long -> float
+        float f = 30L;
+        System.out.println(f); // automatic conversion, long -> float
 
-    // Explicit Conversion
-    // int i = 100L;
-    // System.out.println(i); // Type mismatch: cannot convert from long to int
-    int i = (int) 100L;
-    System.out.println("long to int: " + i);
+        // Explicit Conversion
+        // int i = 100L;
+        // System.out.println(i); // Type mismatch: cannot convert from long to int
+        int i = (int) 100L;
+        System.out.println("long to int: " + i);
 
-    // Explicit Conversion cause loss of accuracy
-    // int number2 = 6000000000; // The literal 6000000000 of type int is out of
-    // range
-    int number2 = (int) 6000000000L;
-    System.out.println(number2); // result is NOT 6000000000, it is 1705032704
+        // Explicit Conversion cause loss of accuracy
+        // int number2 = 6000000000; // The literal 6000000000 of type int is out of
+        // range
+        int number2 = (int) 6000000000L;
+        System.out.println(number2); // result is NOT 6000000000, it is 1705032704
 
-    int number3 = (int) 3.7;
-    System.out.println(number3); // result is 3.
+        int number3 = (int) 3.7;
+        System.out.println(number3); // result is 3.
 
-    // byte, short, char can be applied operators. +, -,
-    char ch = 'A';
-    System.out.println(ch); // result is A
-    System.out.println(ch + 1); // 65, A(65)+1
-    // char variable can have explicit conversion
-    System.out.println((int) ch); // 65
-  } // main
+        // byte, short, char can be applied operators. +, -,
+        char ch = 'A';
+        System.out.println(ch); // result is A
+        System.out.println(ch + 1); // 65, A(65)+1
+        // char variable can have explicit conversion
+        System.out.println((int) ch); // 65
+    } // main
 }
