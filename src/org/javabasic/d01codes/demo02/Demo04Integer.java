@@ -13,9 +13,9 @@ public class Demo04Integer {
         Integer int2 = 10;
         Integer int3 = 200;
         Integer int4 = 200; // exceeded -127 ~ 128 (IntegerCache method),
-        Integer int5 = new Integer(10);
+        // Integer int5 = new Integer(10);
         System.out.println(int1 == int2); // true
-        System.out.println(int1 == int5); // false
+        // System.out.println(int1 == int5); // false
         System.out.println(int3 == int4); // false
         Object obj = int3.getClass();
         System.out.println(obj);
