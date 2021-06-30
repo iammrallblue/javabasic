@@ -1,5 +1,5 @@
 package org.javabasic.d01codes.demo02;
-  
+
 /*
   Primitive Data Types:
     Integer: byte short int long
@@ -37,37 +37,37 @@ package org.javabasic.d01codes.demo02;
       6. 
 */
 public class Demo01Primitives {
-  /** Demo of Primitive Data Type. */
-  public static void main(String[] args) {
-    // Numbers: 
-    // Integer types:
-    //  byte, short, int, long
+    /** Demo of Primitive Data Type. */
+    public static void main(String[] args) {
+        // Numbers:
+        // Integer types:
+        // byte, short, int, long
 
-    // byte data type stores (-128 ~ 127)
-    byte myByte = 127; // 127 is max value of byte
-    System.out.println(myByte);
+        // byte data type stores (-128 ~ 127)
+        byte myByte = 127; // 127 is max value of byte
+        System.out.println(myByte);
 
-    // short data type stores (-32768 ~ 32767)
-    short myShort = 32767; // 32767 is max value of short
-    System.out.println(myShort);
+        // short data type stores (-32768 ~ 32767)
+        short myShort = 32767; // 32767 is max value of short
+        System.out.println(myShort);
 
-    // int data type stores (-2147483648 ~ 2147483647)
-    int myInt = 2147483647; // 2147483647 is max value
-    System.out.println(myInt);
+        // int data type stores (-2147483648 ~ 2147483647)
+        int myInt = 2147483647; // 2147483647 is max value
+        System.out.println(myInt);
 
-    // long data type stores (-9223372036854775808 ~ 9223372036854775807)
-    long myLong = 9223372036854775807L; // long value has "L" after value
-    System.out.println(myLong);
-    
-    // Float types:
-    //    float, double
+        // long data type stores (-9223372036854775808 ~ 9223372036854775807)
+        long myLong = 9223372036854775807L; // long value has "L" after value
+        System.out.println(myLong);
 
-    // float data type stores (3.4e−038 ~ 3.4e+038)
-    float myFloat = 9.9f; // float value has "f"
-    System.out.println(myFloat);
+        // Float types:
+        // float, double
 
-    // double data type stores (1.7e−308 to 1.7e+308)
-    double myDouble = 9.9;
-    System.out.println(myDouble);
-  } // main
+        // float data type stores (3.4e−038 ~ 3.4e+038)
+        float myFloat = 9.9f; // float value has "f"
+        System.out.println(myFloat);
+
+        // double data type stores (1.7e−308 to 1.7e+308)
+        double myDouble = 9.9;
+        System.out.println(myDouble);
+    } // main
 }

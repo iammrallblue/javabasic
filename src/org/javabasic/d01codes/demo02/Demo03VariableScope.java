@@ -24,39 +24,39 @@ package org.javabasic.d01codes.demo02;
           System.out.println(i); // ERROR, out of the for loop block.
 */
 public class Demo03VariableScope {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-  } // main
+    } // main
 
-  /** Demo of method scope. */
-  public static void method() {
+    /** Demo of method scope. */
+    public static void method() {
 
-    // Code here CANNOT use x
+        // Code here CANNOT use x
 
-    int x = 100;
+        int x = 100;
 
-    // Code here can use x
-    System.out.println(x);
-  }
-
-  // Code here CANNOT use x
-
-  /** Demo of block scope. */
-  public static void method2() {
+        // Code here can use x
+        System.out.println(x);
+    }
 
     // Code here CANNOT use x
 
-    { // This is a block
+    /** Demo of block scope. */
+    public static void method2() {
 
-      // Code here CANNOT use x
+        // Code here CANNOT use x
 
-      int x = 100;
+        { // This is a block
 
-      // Code here CAN use x
-      System.out.println(x);
+            // Code here CANNOT use x
 
-    } // The block ends here
+            int x = 100;
 
-    // Code here CANNOT use x
-  }
+            // Code here CAN use x
+            System.out.println(x);
+
+        } // The block ends here
+
+        // Code here CANNOT use x
+    }
 }
