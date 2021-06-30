@@ -30,7 +30,7 @@ public class Demo16Scanner {
     String mother = scanner.next();
     System.out.print("Input Pet's weight: ");
     double weight = scanner.nextDouble();
-    System.out.print("Is the Dog Breeding Yet? <true: bred, false: not breed.");
+    System.out.print("Is the Dog Breeding Yet? < true: bred, false: not breed.");
     boolean breeding = scanner.hasNextBoolean();
 
     // to show pet's information:

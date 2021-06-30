@@ -30,25 +30,25 @@ package org.javabasic.d02codes.demo03;
       x > 1 && x < 3;
 */
 public class Demo09LogicalOperator {
-  /** Demo of Logical Operators. */
-  public static void main(final String[] args) {
-    // int m = 2;
-    // int n = 3;
-    // System.out.println(m > n && n < m); // false
+    /** Demo of Logical Operators. */
+    public static void main(String[] args) {
+        // int m = 2;
+        // int n = 3;
+        // System.out.println(m > n && n < m); // false
 
-    System.out.println(3 < 4 && 10 > 8); // true
+        System.out.println(3 < 4 && 10 > 8); // true
 
-    //
-    // System.out.println(! (m != n)); // false
+        //
+        // System.out.println(! (m != n)); // false
 
-    int x = 10;
-    // false && ... (skipped ... if first statement is false)
-    // System.out.println(3 > 4 && ++x < 100); // false && ...
-    System.out.println(x + " did not change."); // 10, b/c ++x < 100 is skipped.
+        int x = 10;
+        // false && ... (skipped ... if first statement is false)
+        // System.out.println(3 > 4 && ++x < 100); // false && ...
+        System.out.println(x + " did not change."); // 10, b/c ++x < 100 is skipped.
 
-    int y = 20;
-    // true || ... (skipped ... if first statement is true)
-    // System.out.println(3 < 4 || ++y < n); // true || ...
-    System.out.println(y);
-  } // main
+        int y = 20;
+        // true || ... (skipped ... if first statement is true)
+        // System.out.println(3 < 4 || ++y < n); // true || ...
+        System.out.println(y);
+    } // main
 }
