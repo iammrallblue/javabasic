@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_3;
+
 /*
 * Write a method named pay that accepts a real number for a TA's salary and an 
 * integer for the number of hours the TA worked this week, and returns how much
@@ -7,12 +9,19 @@
 * For example, the call pay(4.00, 11) should return (4.00 * 8) + (6.00 * 3) or 50.0.
 */
 
-public static double pay(double hourSalary, int hour) {
-    double salary = 0;
-    if (hour > 8) {
-        salary = 8 * hourSalary + (hour - 8) * (1.5 * hourSalary);
-    } else {
-        salary = hour * hourSalary;
+public class Pay{
+    public static void main(String[] args) {
+        
+    } // main
+
+    public static double pay(double hourSalary, int hour) {
+        double salary = 0;
+        if (hour > 8) {
+            salary = 8 * hourSalary + (hour - 8) * (1.5 * hourSalary);
+        } else {
+            salary = hour * hourSalary;
+        }
+        return salary;
     }
-    return salary;
+    
 }

@@ -1,3 +1,7 @@
+package org.javabasic.practices.chapter_3;
+
+import java.util.Scanner;
+
 /*
 * Write a complete program in a class named CollegeAdmit that uses a Scanner to read 
 * user input for a student's grade point average and SAT exam score, and uses these 
@@ -33,9 +37,11 @@ public class CollegeAdmit {
         if (GPA < 1.8) {
             System.out.println("Your GPA is too low.");
         } else if (SAT < 900) {
-             System.out.println("Your SAT score is too low.");
+            System.out.println("Your SAT score is too low.");
         } else {
             System.out.println("You were accepted!");
         }
+
+        console.close();
     }
 }
