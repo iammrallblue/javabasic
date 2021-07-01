@@ -1,3 +1,7 @@
+package org.javabasic.practices.chapter_3;
+
+import java.util.Scanner;
+
 /* 
 * Write a method called processName that accepts a Scanner for the console as a 
 * parameter and that prompts the user to enter his or her full name, then prints
@@ -10,9 +14,17 @@
 * Your name in reverse order is Jankis, Sammy
 */
 
-public static void processName(Scanner console) {
-   System.out.print("Please enter your full name: ");
-   String firstName = console.next();
-   String lastName = console.next();
-   System.out.print("Your name in reverse order is " + lastName + ", " + firstName);
+public class ProcessName {
+   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+      processName(scanner);
+   } // main
+
+   public static void processName(Scanner console) {
+      System.out.print("Please enter your full name: ");
+      String firstName = console.next();
+      String lastName = console.next();
+      System.out.print("Your name in reverse order is " + lastName + ", " + firstName);
+   }
+
 }

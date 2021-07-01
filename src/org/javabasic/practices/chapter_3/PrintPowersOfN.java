@@ -1,9 +1,16 @@
+package org.javabasic.practices.chapter_3;
+
 /*
 * Write a method called printPowersOfN that accepts a base and an exponent as arguments and  
 * prints each power of the base from base (1) up to that maximum power, inclusive.
 */
 
-public static void printPowersOfN(int base, int exponent) {
+public class PrintPowersOfN {
+    public static void main(String[] args) {
+        printPowersOfN(2, 3);
+    } // main
+
+    public static void printPowersOfN(int base, int exponent) {
     int currentNum = 1;
     System.out.print(currentNum + " ");
     
@@ -13,4 +20,6 @@ public static void printPowersOfN(int base, int exponent) {
     }
     
     System.out.println();
+}
+
 }

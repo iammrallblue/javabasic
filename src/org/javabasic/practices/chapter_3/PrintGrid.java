@@ -1,3 +1,5 @@
+package org.javabasic.practices.chapter_3;
+
 /*
 * Write a method named printGrid that accepts two integer parameters rows and cols. 
 * The output is a comma-separated grid of numbers where the first parameter (rows) 
@@ -8,17 +10,24 @@
 * of the current column is reached. Assume that rows and cols are greater than 0. 
 */
 
-public static void printGrid(int row, int col) {
+public class PrintGrid {
+    public static void main(String[] args) {
+        printGrid(2, 3);
+    } // main
 
-    for (int i = 1; i <= row; i++) { 
-        int num = i;
-        System.out.print(i);
-        
-        for (int j = 1; j < col; j++) {
-            num += row;
-            System.out.print(", " + num);
+    public static void printGrid(int row, int col) {
+
+        for (int i = 1; i <= row; i++) {
+            int num = i;
+            System.out.print(i);
+
+            for (int j = 1; j < col; j++) {
+                num += row;
+                System.out.print(", " + num);
+            }
+
+            System.out.println();
         }
-        
-        System.out.println();
     }
+
 }
