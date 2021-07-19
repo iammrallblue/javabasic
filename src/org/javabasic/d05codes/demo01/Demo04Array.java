@@ -17,7 +17,7 @@ public class Demo04Array {
     // print out the memory hashcode of an array
     int[] intArray = { 1, 2, 3, 5, 6 };
     System.out.println(intArray); // [I@2a139a55
-    System.out.println(intArray.toString()); // [I@2a139a55
+    // System.out.println(intArray.toString()); // [I@2a139a55
 
     // access element in Array intArray
     System.out.println(intArray[0]); // 1
